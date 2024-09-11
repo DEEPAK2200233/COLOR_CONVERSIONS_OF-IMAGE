@@ -72,7 +72,7 @@ cv2.waitKey(0)
 # Destroy all windows created by OpenCV
 cv2.destroyAllWindows()
 ```
-![image](https://github.com/user-attachments/assets/f21cc1d1-82f1-48c5-a35b-e4adbe02580d)
+![image](https://github.com/user-attachments/assets/9a7ec3fe-b0e6-42db-9f81-d65db97edb31)
 <br>
 <br>
 
@@ -102,9 +102,9 @@ cv2.imshow('Image Window', res_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![image](https://github.com/user-attachments/assets/4b8f523c-b59a-4170-83b6-1ce21605a86e)
-![image](https://github.com/user-attachments/assets/2a6a9d91-84a1-492c-9fdf-9ca5d125ee45)
-![image](https://github.com/user-attachments/assets/f3d901d2-1ff0-482b-aaef-7e54230f1696)
+![image](https://github.com/user-attachments/assets/f9163c6c-061c-423e-9ed1-d21bee89b2d1)
+![image](https://github.com/user-attachments/assets/8d443cea-3021-40e2-8a5d-15fd006a8313)
+![image](https://github.com/user-attachments/assets/c0cbcdc0-6787-4a67-ab6f-ab2f2afb3086)
 ![image](https://github.com/user-attachments/assets/7712f3fe-3d30-4c09-8813-3c869de1f7a4)
 
 
@@ -140,16 +140,17 @@ cv2.imshow('HSV to RGB Image', hsv_to_rgb_image)
 cv2.waitKey(0)
 ```
 ### Convert the image from RGB to HSV and display it:
-![image](https://github.com/user-attachments/assets/c6b5d1d6-a215-489f-b52a-71d66129309f)
+![image](https://github.com/user-attachments/assets/3362fb1a-5d88-438a-b339-440a109a9d18)
+
 
 ### Convert the image from RGB to GRAY and display it:
-![image](https://github.com/user-attachments/assets/f9a8df5e-3afe-4ff1-8185-1c161a1cf51e)
+![image](https://github.com/user-attachments/assets/b828adfd-d6a7-4d65-bcc5-1214e52bd994)
 
 ### Convert the image from RGB to YCrCb and display it:
-![image](https://github.com/user-attachments/assets/219bb116-72e7-43b6-af84-28f92982bb7e)
+![image](https://github.com/user-attachments/assets/293193ea-232e-4b9f-ab3d-23828a6245b8)
 
 ### Convert the HSV image back to RGB and display it:
-![image](https://github.com/user-attachments/assets/96eecc60-c49e-47b3-bf91-ac29f5b575fd)
+![image](https://github.com/user-attachments/assets/00e3c8ef-64d4-41b0-ab2f-b3a98f9888f3)
 
 <br>
 <br>
@@ -178,7 +179,7 @@ resized_image = cv2.resize(image, (image.shape[1] // 2, image.shape[0] // 2))
 cv2.imshow('Resized Image', resized_image)
 cv2.waitKey(0)
 ```
-![image](https://github.com/user-attachments/assets/56c20463-efc2-4869-b6a3-e50fda8cc4fa)
+![image](https://github.com/user-attachments/assets/cdb7f2a8-6345-434d-bb0b-51573bd3ff97)
 
 <br>
 <br>
@@ -192,7 +193,7 @@ roi = image[50:150, 50:150]
 cv2.imshow('Cropped ROI Image', roi)
 cv2.waitKey(0)
 ```
-![image](https://github.com/user-attachments/assets/c9f1404f-7951-4326-bc1b-efa8acb57da6)
+![image](https://github.com/user-attachments/assets/a46bd24e-a71d-4593-ac88-81439a5eafdc)
 
 <br>
 <br>
@@ -212,10 +213,10 @@ cv2.waitKey(0)
 ```
 
 ### Flip the original image horizontally and display it:
-![image](https://github.com/user-attachments/assets/afc3e98b-15ef-4188-a3c9-b281eeae8db6)
+![image](https://github.com/user-attachments/assets/8aa5495b-447f-48f0-b135-930329634339)
 
 ### Flip the original image vertically and display it:
-![image](https://github.com/user-attachments/assets/07e2be4b-5245-4cc6-aa72-05e060659bc4)
+![image](https://github.com/user-attachments/assets/d3644900-6792-4d50-a092-e8e7bee3db69)
 
 <br>
 <br>
@@ -228,7 +229,7 @@ output_path = 'output.jpg'
 cv2.imwrite(output_path, image_with_text)
 print(f"Modified image saved as {output_path}")
 ```
-![image](https://github.com/user-attachments/assets/6067a52f-78b8-464b-a93c-b15960bb302d)
+![image](https://github.com/user-attachments/assets/d6ad0554-365a-4c30-a515-8967af1101f1)
 <br>
 <br>
 
