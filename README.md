@@ -104,7 +104,7 @@ cv2.imshow('Image Window', res_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![image](https://github.com/user-attachments/assets/f9163c6c-061c-423e-9ed1-d21bee89b2d1)
+![image](https://github.com/user-attachments/assets/54e78b14-ad62-4507-a6d4-c8b8370cdfd7)
 ![WhatsApp Image 2024-11-18 at 21 34 21_d3111452](https://github.com/user-attachments/assets/64371dd7-c554-40e0-8f59-1ae63a8aa8f5)
 ![image](https://github.com/user-attachments/assets/c0cbcdc0-6787-4a67-ab6f-ab2f2afb3086)
 
