@@ -168,7 +168,8 @@ print(f"Pixel value at (100, 100): {pixel_value}")
 image[200, 200] = [255, 255, 255]
 print(f"Modified pixel value at (200, 200): {image[200, 200]}")
 ```
-![image](https://github.com/user-attachments/assets/66bf0b1a-3b5a-4da3-a159-90b507f5eeed)
+![image](https://github.com/user-attachments/assets/bb98af8d-c8a5-40bc-b99c-f994f00bb046)
+
 <br>
 <br>
 
